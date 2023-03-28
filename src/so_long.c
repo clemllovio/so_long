@@ -62,6 +62,7 @@ int	main(int ac, char **av)
 {
 	t_game	game;
 
+	ft_printf("bonjour \n");
 	if (ac != 2)
 		return (ft_printf("Error\nWrong number of arguments\n"), -1);
 	init(&game);
